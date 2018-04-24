@@ -18,10 +18,10 @@ a=1;
         if (strcmp(line, "quit") == 0) {
             break;
         }
-        if (strncmp(line, "fn11245.info ", strlen("fn11245.info ")) == 0) {a=0;
+        if (strncmp(line, "fn11245.info", strlen("fn11245.info")) == 0) {a=0;
  cout<<"Filip Tashev Matematika 2017";
         }
-        if (strncmp(line, "fn11245.sdp.marks ", strlen("fn11245.sdp.marks ")) == 0){a=0;
+        if (strncmp(line, "fn11245.sdp.marks", strlen("fn11245.sdp.marks")) == 0){a=0;
              cout<<"TKsem="<<TKsem<<endl<<"Kt01="<<Kt01<<endl<<"Kt02="<<Kt02<<endl<<"Kz01="<<Kz01<<endl<<"Kz02="<<Kz02<<endl<<"TK="<<((TKsem+Kt01+Kt02+Kz01+Kz02)/5)<<endl;
     cout<<"It="<<It<<" Can skip? ";if(Kt01>=3.50&&Kt02>=3.50&&Kt01+Kt02>=9){cout<<"yes"<<(Kt01+Kt02)/2;}else{cout<<"no";};
      cout<<"Iz="<<Iz<<" Can skip? ";if(Kz01>=3.50&&Kz02>=3.50&&Kz01+Kz02>=9){cout<<"yes"<<(Kz01+Kz02)/2;}else{cout<<"no";};
@@ -34,7 +34,7 @@ a=1;
 
 
 
-        if (strncmp(line, "fn11245.sdp.info ", strlen("fn11245.sdp.info ")) == 0){a=0;
+        if (strncmp(line, "fn11245.sdp.info", strlen("fn11245.sdp.info")) == 0){a=0;
             cout<<"O=2/3*TK+1/3*I"<<endl<<"TK=1/5(Kt01+Kt02+Kz01+Kz02+TKsem)"<<endl<<"I=1/2*(It+Iz)"<<endl<<"Oswobovdawane ot kontrolni teoriq i zadaci e vyzmovno pri sredna ocenka nad 4,50 i dvete ocenki nad 3.50.Osvobovdawaneto stava sys srednata ocenka;"<<endl<<"Wyzmovno e i oswobovdawane pri80% prisystwie na seminaar i praktikum s Sem TK>5.00;Osvobovdawaneto stava s 3;";
         }
             if (strncmp(line, "fn11245.sdp.TKsem ", strlen("fn11245.sdp.TKsem ")) == 0)
