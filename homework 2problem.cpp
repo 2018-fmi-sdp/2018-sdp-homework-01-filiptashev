@@ -105,6 +105,7 @@ PracticePass=true;
 
 
 if (a==1){cout<<"not comand";};
+        cout<<endl;
     };
     return 0;
 }
